@@ -1,0 +1,30 @@
+footer {
+    background-color: #a5d6a7;
+}
+footer {
+    nav {
+        ul {
+            li {
+                a { color:#008e76 ;
+                    text-align: start;
+                    font-style: italic;
+                    text-transform: lowercase;
+
+                }
+            }
+        }
+    }
+}
+.jujuy20 {
+    display: flex;
+    justify-content: flex-end;
+ }
+  
+ .operadora {
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     width: 15rem;
+     overflow: unset;
+ 
+ }
