@@ -1,18 +1,151 @@
-/* Error: expected ")".
- *   ,
- * 3 |     color2:#008e76
- *   |           ^
- *   '
- *   scss\_maps.scss 3:11  @import
- *   scss\style.scss 1:9   root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ")".\a   \2577 \a 3 \2502      color2:#008e76\d\a   \2502            ^\a   \2575 \a   scss\\_maps.scss 3:11  @import\a   scss\\style.scss 1:9   root stylesheet';
+.eunoia {
+  color: #004c40;
+  text-align: center;
+  font-style: normal;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: "Prompt", sans-serif;
 }
+
+header {
+  background-color: #008e76;
+  background-size: cover;
+}
+header nav ul li a {
+  color: #a5d6a7;
+  text-align: start;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+a, button, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.cobros {
+  color: #008e76;
+  text-align: start;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.ingresar {
+  color: #008e76;
+  text-align: start;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+footer {
+  background-color: #a5d6a7;
+}
+
+footer nav ul li a {
+  color: #008e76;
+  text-align: start;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.jujuy20 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.operadora {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 15rem;
+  overflow: unset;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #1de9b6;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+p {
+  color: #00b686;
+  text-align: start;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.descargar {
+  color: #00b686;
+  text-align: start;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+/*seccion2 y 3*/
+.boton {
+  color: #00b686;
+  text-align: start;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Prompt", sans-serif;
+  border: 2px solid black;
+}
+
+em, strong {
+  background-color: aquamarine;
+  display: block;
+}
+
+.pseudo-boton {
+  border: 1rem solid cornsilk;
+  background-color: antiquewhite;
+  padding: 1;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+}
+
+li {
+  display: inline-block;
+  padding: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  background-image: url(./src/multimedia/images/fondo.png);
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

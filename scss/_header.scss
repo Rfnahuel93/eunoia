@@ -7,12 +7,12 @@
     font-family: 'Prompt', sans-serif;
 }
 header {
-    background-color: map-get($font , color1 );
+    background-color: #008e76 ;
     background-size: cover;
     nav {
         ul {
             li {
-                a {color: map-get($font , color2 );
+                a {color: #a5d6a7;
                     text-align: start;
                     font-style: italic;
                     text-transform: lowercase;
