@@ -28,40 +28,147 @@ Debido a nuestras creencias, facilitamos oportunidades de financiamiento para em
 
 <body>
     <header>
-        <!--logo de eunoia-->
-        <p>
-            <a href="../../index.html" class="eunoia">Eunoia</a>
-        </p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="espiritu.html">Espiritu</a>
-                </li>
-                <li>
-                    <a href="funcionalidades.html">Funcionalidades</a>
-                </li>
-                <li>
-                    <a href="sobrenosotros.html">Sobre Nosotros</a>
-                </li>
-                <li>
-                    <a href="seguridad.html">Seguridad</a>
-                </li>
-                <li>
-                    <a href="costos.html ">Costos</a>
-                </li>
-            </ul>
-            <a href="cobros.html" class=" pseudo-boton">Cobros</a>
-
-            <a href="ingresar.html" class="pseudo-boton">Ingresar</a>
-
-
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../../index.html">EUNOIA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./espiritu.html">Espiritu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./funcionalidades.html">Funcionalidades</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sobre nosotros
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./seguridad.html">Seguridad</a></li>
+                      <li><a class="dropdown-item" href="./costos.html">costos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                     
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="./ingresar.html">Ingresar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="./cobros.html">Cobros</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
     <section>
         <h1>Ingreso</h1>
-        <main>
-            <!--aca va un formulario de ingreso, para poder ingresar a la caja de ahorro personal -->
-        </main>
+        <title>EUNOIA</title>
+  </head>
+
+  <body>
+    <!-- ENCABEZADO/MENU -->
+    <header>
+      <img src="#" alt="logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+
+    <br />
+
+    <main>
+      <!--CONTENIDO PRINCIPAL-->
+      <section>
+        <h1>EUNOIA</h1>
+      </section>
+
+      <section class="formulario">
+        <form action="enviar.php" method="POST">
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" id="name" placeholder="Name" />
+
+          <br />
+          <br />
+
+          <label for="surname">Apellido:</label>
+          <input
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Surname"
+          />
+
+          <br />
+          <br />
+
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@example.com"
+          />
+
+          <br />
+          <br />
+
+          <label for="marital-status">Estado civil:</label>
+          <select name="maritalStatus" id="marital-status">
+            <option value="single">Soltera/o</option>
+            <option value="married">Casada/o</option>
+          </select>
+
+          <br />
+          <br />
+
+          <fieldset>
+            <legend for="gender">Selecciona tu género:</legend>
+            <input type="radio" name="gender" id="gender" value="male" />Hombre
+            <input type="radio" name="gender" id="gender" value="female" />Mujer
+          </fieldset>
+
+          <br />
+
+          <label for="news">¿Querés recibir nuestro newsletter mensual?</label>
+          <input type="checkbox" name="news" id="news" />
+
+          <br />
+          <br />
+
+          <textarea
+            name="comments"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Deje aquí un comentario..."
+          ></textarea>
+
+          <br />
+          <br />
+
+          <!-- OPCION 1 -->
+          <input type="reset" value="Borrar" />
+          <input type="submit" value="Enviar" />
+
+          <br />
+          <br />
+          <!-- OPCION 2 -->
+          <button type="reset">Borrar</button>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <br />
     </section>
    
     <footer>
